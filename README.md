@@ -3,7 +3,7 @@ This is a docker setup I modified to get a playground for the mastering ansible 
 
 `docker-compose up --build -d`
 
-`docker container exec -it udemy-mastering-ansible_control_1 bash`
+`docker container exec -it udemy-ansible_control_1 bash`
 
 `ansible all -m ping`
 
